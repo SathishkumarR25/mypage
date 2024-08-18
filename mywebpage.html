@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Ecommerce Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand me-5" href="#">My Ecommerce Page</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto"> 
+                    <li class="nav-item ">
+                        <form class="d-flex mx-auto">
+                            <input class="form-control me-2" type="search" placeholder="Search for products, brands and more" style="width: 300px;">
+                            <button class="btn btn-success" type="submit">Search</button>
+                        </form>
+                    </li>
+                    <li class="nav-item">
+                       <a href="#" class="nav-link login-btn ms-5">Login</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle ms-3" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" >
+                            <li><a class="dropdown-item" href="#">Notification Preferences</a></li>
+                            <li><a class="dropdown-item" href="#">24x7 Customer Care</a></li>
+                            <li><a class="dropdown-item" href="#">Advertise</a></li>
+                            <li><a class="dropdown-item" href="#">Download App</a></li>
+                          
+                        </ul>
+                      </li>
+                    <li class="nav-item"><a class="nav-link ms-3" href="#">Cart</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark ;" id="nav2">
+        <div class="container">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto ">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="electronicsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Electronics
+                </a>
+               
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="tvsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    TVs & Appliances
+                </a>
+                
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="menDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Men
+                </a>
+                
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="womenDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Women
+                </a>
+                
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="babyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Baby & Kids
+                </a>
+                
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Home & Furniture
+                </a>
+                
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="sportsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Sports, Books & More
+                </a>
+               
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Flights</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Offer Zone</a>
+            </li>
+
+        </ul>
+
+      </div>
+        </div>
+
+    </nav>
+    
+       <p style="background-color: rgb(153, 148, 148); visibility: hidden; padding: 0; margin: 0;">..</p>
+    
+    <div style="background-color: white;width: 100%;">
+        <div class="row">
+    <div class="container mx-0 mt-5 col-sm-2">
+        <div class="accordion custom-width" id="filterAccordion">
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingone">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDialShape" aria-expanded="false" aria-controls="collapseDialShape">
+                    BRAND
+                </button>
+               </h2>
+               <div id="collapseDialShape" class="accordion-collapse collapse" aria-labelledby="headingone" data-bs-parent="#filterAccordion">
+                <div class="accordion-body">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          Somato
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                        <label class="form-check-label" for="defaultCheck2">
+                          Fastrack
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                        <label class="form-check-label" for="defaultCheck3">
+                          Timez
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck4" >
+                        <label class="form-check-label" for="defaultCheck4">
+                          Polex
+                        </label>
+                      </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+        <div class="accordion custom-width" id="filterAccordion1">
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingtwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDialShape" aria-expanded="false" aria-controls="collapseDialShape">
+                    DISCOUNT
+                </button>
+               </h2>
+               <div id="collapseDialShape" class="accordion-collapse collapse" aria-labelledby="headingtwo" data-bs-parent="#filterAccordion1">
+                <div class="accordion-body">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          10% or more
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="discount1">
+                        <label class="form-check-label" for="discount1">
+                            20% or more
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="discount2">
+                        <label class="form-check-label" for="discount2">
+                            30% or more
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="discount3" >
+                        <label class="form-check-label" for="discount3">
+                            40% or more
+                        </label>
+                      </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+        <div class="accordion custom-width" id="filterAccordion3">
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingthree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDialShape" aria-expanded="false" aria-controls="collapseDialShape">
+                    Price Range
+                </button>
+               </h2>
+               <div id="collapseDialShape" class="accordion-collapse collapse" aria-labelledby="headingthree" data-bs-parent="#filterAccordion3">
+                <div class="accordion-body">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="range1">
+                        <label class="form-check-label" for="range1">
+                          Low to High
+                        </label>
+                      </div>
+                      
+                     
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="range2" >
+                        <label class="form-check-label" for="range2">
+                           High to Low
+                        </label>
+                      </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+        <div class="accordion custom-width" id="filterAccordion3">
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingthree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDialShape" aria-expanded="false" aria-controls="collapseDialShape">
+                    Strap Colour
+                </button>
+               </h2>
+               <div id="collapseDialShape" class="accordion-collapse collapse" aria-labelledby="headingthree" data-bs-parent="#filterAccordion3">
+                <div class="accordion-body">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="range1">
+                        <label class="form-check-label" for="range1">
+                          Black
+                        </label>
+                      </div>
+                      
+                     
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="range2" >
+                        <label class="form-check-label" for="range2">
+                          Brown
+                        </label>
+                      </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+        
+        
+
+    </div>
+    <div class="container mt-5 col-lg-10">
+        
+        <div class="row" id="product-list"></div>
+    </div>
+    </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

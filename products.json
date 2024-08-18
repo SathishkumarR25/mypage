@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "RIDER",
+        "image": "./watch1.jpg",
+        "price": 999,
+        "originalPrice": 6999,
+        "discount": 85
+        
+    },
+    {
+        "id": 2,
+        "name": "POLEX",
+        "image": "./watch2.jpg",
+        "price": 1999,
+        "originalPrice": 5999,
+        "discount": 67
+       
+    },
+    {
+        "id": 3,
+        "name": "TIMEZ",
+        "image": "./watch3.jpg",
+        "price": 2499,
+        "originalPrice": 6999,
+        "discount": 64
+       
+    },
+    {
+        "id": 4,
+        "name": "SONATA",
+        "image": "./watch4.jpg",
+        "price": 3999,
+        "originalPrice": 8999,
+        "discount": 56
+        
+    },
+    {
+        "id": 5,
+        "name": "FASTRACK",
+        "image": "./watch5.jpg",
+        "price": 3999,
+        "originalPrice": 8999,
+        "discount": 56
+        
+    }
+]
